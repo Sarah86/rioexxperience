@@ -1,0 +1,1570 @@
+<!doctype html>
+<html lang="pt-br" manifest="https://www.rioexxperience.com.br/">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="css/lightgallery.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet/less" type="text/css" href="css/styles.less" /> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+  <!--<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="scripts/jquery-3.3.1.min.js"><\/script>')</script>-->
+  <script type="text/javascript" src="scripts/jquery-2.2.4.min.js"></script>
+  <script>window.jQuery || document.write('<script src="scripts/jquery-2.2.4.min.js"><\/script>')</script>
+  <!--<script
+    src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"
+    integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
+    crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="scripts/jquery-migrate-3.0.1.min.js"><\/script>')</script>-->
+   <script src="scripts/modernizr-custom.js"></script>
+   <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <script defer src="scripts/sarah.js"></script>
+  <!-- Hotjar Tracking Code for https://www.rioexxperience.com -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1159571,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  <!--Facebook Pixel Code -->
+  <script type="text/javascript">
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '2281109525454907');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2281109525454907&ev=PageView&noscript=1"/>
+    </noscript>
+      <!-- End Facebook Pixel Code -->
+      <!-- Scripts -->
+    <title>Camarote Rio Exxperience 2019</title>
+    </head>
+    <body>
+      <div class="body-wrapper">
+        <nav class="navbar sgnav-top">
+        <div class="float-left rioexxlogo"></div>
+          <div class="infoevendas float-right">
+            <span class="infoevendastext">
+              Informações e vendas
+            </span>
+            <a href="https://wa.me/5521979568317?text=Olá!%20Estou%20no site%20e%20gostaria%20de%20mais%20informações%20sobre%20o%20Camarote%20Rio%20Exxperience." target="_blank"><span class="telefones">+55 21 97956 8317 <i class="fab fa-whatsapp"></i></span></a>
+          </div>
+        </nav>
+        <nav class='navbar sgnav-bottom'>
+          <div class='container-fluid'>
+            <a href="https://www.instagram.com/rioexxperience" target="_blank" class="icon-link"><i class="fab fa-instagram"></i></a>
+            <button onclick="toggleHamburgerMenu()" id="hamburger-menu" class="hamburger hamburger--collapse transform-centering" data-target='#modalNavigation' data-toggle='modal' type='button'>
+              <span class='sr-only'>Open navigation</span>
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+            <a href="https://bit.ly/RioExxperience2019-1" target="_blank"><button class="botaodecompra"><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span>
+            </button></a>
+          </div>
+        </nav>
+        <div class='modal fade modal-fullscreen-menu' id='modalNavigation' role='dialog' tabindex='-1'>
+          <button aria-label='Close' class='close' data-dismiss='modal' type='button'>
+            <span class='sr-only'>Close navigation</span>
+          </button>
+          <div class='modal-dialog'>
+            <div class="modal-content">
+            <nav class='list-group'>
+              <a class='list-group-item' onclick="closeModal()" href="#home">Home</a>
+              <a class='list-group-item' onclick="closeModal()" href='#aftermovie'>Aftermovie 2018</a>
+              <a class='list-group-item' onclick="closeModal()" href='#ocamarote'>O Camarote</a>
+              <a class='list-group-item' onclick="closeModal()" href='#localizacao'>Localização</a>
+              <a class='list-group-item' onclick="closeModal()" href="#estrutura">Estrutura</a>
+              <a class='list-group-item' onclick="closeModal()" href="#conceitovisual">Conceito Visual</a>
+              <a class='list-group-item' onclick="closeModal()" href='#programacao'>Programação</a>
+              <a class='list-group-item' onclick="closeModal()" href='#desfiles'>Desfiles</a>
+              <a class='list-group-item' onclick="closeModal()" href='#gastronomia'>Gastronomia</a>
+              <a class='list-group-item' onclick="closeModal()" href='#openbar'>OpenBar</a>
+              <a class='list-group-item' onclick="closeModal()" href='#meetingpoint'>Meeting Point</a>
+              <a class='list-group-item' onclick="closeModal()" href='#comofunciona'>Como Funciona</a>
+              <a class='list-group-item' onclick="closeModal()" href='#vendas'>Vendas</a>
+              <a class='list-group-item' onclick="closeModal()" href='#contato'>Contato</a>
+            </nav>
+          </div>
+          </div>
+        </div>
+<div class="swiper-container" id="swiper-container-page">
+  <div class="swiper-wrapper">
+    <!-- HOME -->
+      <div class="swiper-slide swiper-slide-page" id="home" data-hash="home" data-history="home">
+        <div class="home">
+          <h1 style="display:none">Rio Exxperience</h1>
+            <!-- Slider main container -->
+            <div class="swiper-container" id="swiper-container-home">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide swiper-lazy">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <img src="/assets/slider-home-01.jpg" alt="Desfile de Carnaval">
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">A <span class="subtitle-destaque">Magia</span> do Carnaval do Rio
+                  </div>
+                  <!-- Parallax subtitle -->
+                  <div class="subtitle" data-swiper-parallax-y="10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Com todo o conforto, sofisticação e visão privilegiada do Maior Espetáculo da Terra. 
+                  </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <img src="assets/slider-home-02.jpg" alt="Garrafas de Mumm Cuveé Brut">
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9"><span class="subtitle-destaque">All Inclusive</span> Super Premium
+                  </div>
+                  <!-- Parallax subtitle -->
+                  <div class="subtitle" data-swiper-parallax-y="10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Com marcas cuidadosamente selecionadas
+                  </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <img src="assets/slider-home-03.jpg"  alt="Clara Nunes">
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Homenagem às
+                  <span class="subtitle-destaque">Divas do Samba</span></div> 
+                  <!-- Parallax subtitle -->
+                  <div class="subtitle" data-swiper-parallax-y="10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">D. Ivone Lara, Clara Nunes, Beth Carvalho, Elza Soares e Alcione
+                  </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy">
+                  <img src="assets/slider-home-04.jpg" alt="Chef Pedro de Artagão">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Gastronomia
+                  <span class="subtitle-destaque"><br>Chef Pedro de Artagão</span></div> 
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-05.jpg" alt="Elza Soares">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Convidada Especial
+                  <span class="subtitle-destaque"><br>Elza Soares</span></div> 
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-06.jpg" alt="Alcione">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Convidada Especial
+                  <span class="subtitle-destaque"><br>Alcione</span></div> 
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-07.jpg" alt="Desfile de Carnaval na Sapucaí">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">A Melhor Localização
+                  <span class="subtitle-destaque"><br>com Visão Privilegiada</span></div> 
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-08.jpg" alt="Jovem com adereços de Carnaval">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9"><span class="subtitle-destaque">Excelência</span> em Atendimento</div> 
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-09.jpg" alt="Ginasta performando acrobacia">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Performances<span class="subtitle-destaque"> Artísticas</span></div> 
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-10.jpg" alt="Mulheres rindo em frente a passarela da Sapucaí">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9"><span class="subtitle-destaque">Conforto Inigualável</span></div> 
+                  <!-- Parallax subtitle -->
+                  <div class="subtitle" data-swiper-parallax-y="10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">1200m² divididos em 5 ambientes para somente 600 convidados por noite
+                  </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-11.jpg" alt="Mall do CasaShopping">
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9"><span class="subtitle-destaque">Meeting Point</span></div> 
+                  <!-- Parallax subtitle -->
+                  <div class="subtitle" data-swiper-parallax-y="10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Loja Rio Exxperience no CasaShopping e Transporte Executivo
+                  </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-12.jpg" alt="Drink com gin">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9">Drinks especiais com <span class="subtitle-destaque">Mixologistas convidados</span>
+                  </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-lazy"><img src="assets/slider-home-13.jpg" alt="Obra de arte retratando uma tartaruga e algas marinhas">
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  <!-- Each slide has parallax title -->
+                  <div class="swiper-subtitle transform-h-centering">
+                  <div class="title" data-swiper-parallax-y="-10" data-swiper-parallax-duration="1500" data-swiper-parallax-opacity="0.1"
+                  data-swiper-parallax-scale="0.9"><span class="subtitle-destaque">Arte & Design</span>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </div>
+      </div>
+      <!-- VIDEO -->
+      <div class="swiper-slide swiper-slide-page" id="aftermovie"> 
+        <div class="aftermovie__wrapper">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div class="youtube-player" data-id="EAH_sh-pueY" data-related="0" data-control="0" data-info="0" data-fullscreen="0" style="width:100%;display: block; position: relative;cursor: pointer;max-height:360px;height:100%; overflow:hidden;padding-bottom:56.25%;margin:0 auto"> <img src="//i.ytimg.com/vi/EAH_sh-pueY/hqdefault.jpg" style="bottom: -100%; display: block; left: 0; margin: auto; max-width: 100%; width: 100%;height:auto; position: absolute; right: 0; top: -100%;"> <div style="height: 72px; width: 72px; left: 50%; top: 50%; margin-left: -36px; margin-top: -36px; position: absolute; background: url('/assets/YouTube-icon-full_color.png') no-repeat; background-size: contain"></div> </div> 
+          </div>
+          <h3><strong>Assista e exxperimente</strong> um pouco da EMOÇÃO e ENCANTAMENTO que te aguardam no Rio Exxperience 2019.</h3>
+        </div>
+      </div>
+      <!-- RESUMO -->
+      <div class="swiper-slide swiper-slide-page swiper-slider-page-tabela"> 
+        <table class="table table-striped table-borderless table-rioexxp">
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>Open Bar
+                <br>Super Premium
+              </td>
+            </tr>
+            <tr>
+              <td>Gastronomia Contemporânea
+                <span>Chef Pedro de Artagão</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Design & Conforto em 1200m²
+                <span>para somente 600 convidados</span>
+              </td>
+            </tr>
+            <tr>
+              <td>5 Ambientes
+                <span>Arte, design e arquitetura</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Melhor Localização no Sambódromo
+                <span>Setor 7 - Em frente à cabine de julgadores</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Elza Soares, Alcione
+                <span>Mariene de Castro e muito mais</span>
+              </td>
+            </tr>
+            <tr>
+              <td>Receptivo & Transporte Executivo
+                <span>Conforto, segurança e comodidade</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+        <div class="swiper-lazy fotos-interslides fotos-interslides__1"></div>
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <!-- O CAMAROTE -->
+      <div class="swiper-slide swiper-slide-page" id="ocamarote">
+        <div class="camarote-title">
+          <h2>o camarote</h2> 
+          <p>EMOÇÃO . ENCANTAMENTO . CONFORTO . SOFISTICAÇÃO</p>
+        </div>
+        <div class="container galeriacamarote">
+          <div class="row no-gutters" id="lightgallerycamarote">
+            <div class="col-12" data-src="/assets/003-foto.jpg"><img src="/assets/003-foto.jpg" alt="Mulheres assistindo ao desfile de Carnaval na Sapucaí de dentro do Camarote Rio Exxperience"></div>
+            <div class="col-4" data-src="/assets/034--foto-2.jpg"><img src="/assets/034--foto-2.jpg" alt="Sofàs, mesas, iluminação e vista da passarela da Sapucaí da área interna do Camarote Rio Exxperience"></div>
+            <div class="col-4" data-src="/assets/047-foto.jpg"><img src="/assets/047-foto.jpg" alt="Jovens sorrindo com a camiseta do Camarote Rio Exxperience"></div>
+            <div class="col-4" data-src="/assets/036-foto.jpg"><img src="/assets/036-foto.jpg" alt="Puffs, sofàs, decoração e iluminação da área interna do Camarote Rio Exxperience"></div>
+          </div>
+        </div>
+        <div class="camarote-texto">
+          <p>
+            Do conceito à curadoria artística, passando pela gastronomia assinada, mixologia com drinks especiais e atendimento de excelência: <span> Todos os detalhes são pensados e executados </span> por uma equipe apaixonada, para proporcionar uma experiência única e inesquecível aos clientes.
+          </p>
+        </div>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+          <div class="swiper-lazy fotos-interslides fotos-interslides__2"></div>
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <!-- LOCALIZACAO -->
+      <div class="swiper-slide swiper-slide-page" id="localizacao">
+          <div class="camarote-title">
+            <h2>localização</h2> 
+            <p>Setor 7 - Em frente à cabine julgadora.</p>
+          </div>
+          <div class="localizacao-bg">
+            <span class="localizacao swiper-lazy" role="image" aria-label="Mapa de localização do Camarote Rio Exxperience na Sapucaí"></span>
+            <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+          </div>
+          <div class="camarote-texto">
+            <div class="legenda-localizacao">
+              <ol type="a">
+                <li>Acesso Direto</li>
+                <li>Camarote Rio Exxperience</li>
+                <li>Desfiles</li>
+              </ol>
+            </div>
+            <p>
+              Localizado no Setor 7 em frente à cabine dos julgadores, com visão panorâmica e privilegiada dos desfiles das Escolas de Samba, <span>local onde a magia do espetáculo acontece;</span>
+            </p>
+          </div>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+        <div class="swiper-lazy fotos-interslides fotos-interslides__3"></div>
+        <span class="sr-only">Desfile de Carnaval no Sambódromo da Marques de Sapucaí</span>
+        <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+      </div>
+      <!-- ESTRUTURA - 1 e 2 andar -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="estrutura" data-hash="estrutura" data-history="estrutura">
+        <!-- Swiper -->
+        <div class="swiper-container swiper-estrutura">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="programacao-title">
+                <h2>estrutura</h2> 
+                <p>1° andar</p>
+              </div>
+              <div class="estrutura-andar">
+                <img src="../assets/o-camarote-1andar-mapa.png" class="andar1" alt="Mapa do primeiro andar do Camarote Rio Exxperience">
+                <div class="legenda">
+                  <ol>
+                    <li>Entrada</li>
+                    <li>Galeria</li>
+                    <li>Beauty Factory</li>
+                    <li>Cervejaria Therezópolis</li>
+                    <li>Louge Instagram</li>
+                    <li>Espaço Gourmet</li>
+                    <li>Chapelaria</li>
+                    <li>Palco SSC</li>
+                    <li>Super Frisa</li>
+                    <li>Desfiles</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="programacao-title">
+                <h2>estrutura</h2> 
+                <p>2° andar</p>
+              </div>
+              <div class="estrutura-andar">
+                <img src="../assets/o-camarote-2andar-mapa.png" class="andar2" alt="Mapa do segundo andar do Camarote Rio Exxperience">
+                <div class="legenda legenda1coluna">
+                  <ol>
+                    <li>Entrada</li>
+                    <li>Live Exxperience</li>
+                    <li>Bar Beefeater Gin</li>
+                    <li>Buffet</li>
+                    <li>Cozinha Pedro de Artagão</li>
+                    <li>Banheiros</li>
+                    <li>Janelas Panorâmicas</li>
+                    <li>Desfiles</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+      <!-- FOTOS PRIMEIRO E SEGUNDO ANDAR -->
+      <div class="swiper-slide swiper-slide-page">
+            <div class="swiper-container swiper-fotosestrutura">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="swiper-lazy fotos-interslides fotos-interslides__4"></div>
+                  <span class="sr-only">Mulheres com vestidos brilhantes e adereços de Carnaval fotografadas no Camarote Rio Exxperience</span>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-lazy fotos-interslides fotos-interslides__5"></div>
+                  <span class="sr-only">Iluminação da área interna do Camarote Rio Exxperience </span>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-lazy fotos-interslides fotos-interslides__6"></div>
+                  <span class="sr-only">Dois artistas de circo performando acrobacias dentro do Camarote Rio Exxperience.</span>
+                  <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="swiper-lazy fotos-interslides fotos-interslides__7">
+                    <span class="sr-only">Máscaras Venezianas de Carnaval</span></div>
+                    <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-lazy fotos-interslides fotos-interslides__8">
+                      <span class="sr-only">Puffs, Sofàs, Iluminação e decoração da área Interna do Camarote Rio Exxperience</span>
+                      <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="swiper-lazy fotos-interslides fotos-interslides__10">
+                      <span class="sr-only">Área interna do Camarote Rio Exxperience e vista para o Sambódromo Marque de Sapucaí</span></div>
+                      <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                    </div>
+                  </div>
+                  <!-- If we need navigation buttons -->
+                  <div class="swiper-button-prev swiper-button-white"></div>
+                  <div class="swiper-button-next swiper-button-white"></div>
+                </div>
+      </div>
+      <!-- ARQUITETURA DA LUZ -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="conceitovisual">
+        <div class="conceitovisual__container">
+            <div class="programacao-title">
+            <h2>conceito visual</h2> 
+            <p>ARQUITETURA DA LUZ</p>
+          </div>
+            <div class="conteitovisual__luz" src="/assets/conceito-light.jpg"></div>
+            <div class="conteudo-texto">
+              <p>O conceito visual do Camarote Rio Exxperience neste ano será um show à parte.</p>
+              <p>Envolverá o painel de cores, sentimentos e sons da presença feminina no Carnaval;
+              <p>E será criado coletivamente com os alunos do <strong>Instituto Europeu de Design - IED</strong>, e coordenado pela designer <strong>Nara del Rey</strong> e a Light designer <strong>Liane Cantanhede.</strong></p>
+              <img class="conceitovisual__logoied" src="/assets/conceito-logoied.jpg">
+            </div>
+          </div>
+        </div>
+      <!-- PROGRAMACAO -->
+      <div class="swiper-slide swiper-slide-page" id="programacao">
+        <div class="programacao" id="swiper-programacao">
+          <div class="programacao-title">
+            <h2>programação</h2> 
+            <p>nos intervalos dos desfiles das escolas de samba</p>
+          </div>
+          <!-- Swiper -->
+          <div class="swiper-container gallery-top">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide sonhomeu swiper-lazy">
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                <div class="prog-texto">
+                  <h2 class="prog-data">
+                    Sonho Meu
+                  </h2>
+                  <h3 class="prog-nome-artista2">
+                    Samba Que Elas Querem<span class="prog-nome-artista-destaque"></span>
+                  </h3>
+                  <p class="artista-convidado"><span class="prog-nome-artista2">canta</span><span class="artista-convidado"> D. Ivone Lara</span></p>
+                  <p class="prog-subtitle">
+                    Desfile das Escolas de Samba da Série A
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide voufestejar swiper-lazy">
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                <div class="prog-texto">
+                  <h2 class="prog-data">
+                    Vou Festejar
+                  </h2>
+                  <h3 class="prog-nome-artista2">
+                    Moça Prosa<span class="prog-nome-artista-destaque"></span>
+                  </h3>
+                  <p class="artista-convidado"><span class="prog-nome-artista2">canta</span><span class="artista-convidado"> Beth Carvalho</span></p>
+                  <p class="prog-subtitle">
+                    Desfile das Escolas de Samba da Série A
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide deixaclarear swiper-lazy">
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                <div class="prog-texto">
+                  <h2 class="prog-data">
+                    Deixa Clarear
+                  </h2>
+                  <h3 class="prog-nome-artista">
+                    Samba S. C. canta <span class="prog-nome-artista-destaque"> Clara Nunes</span>
+                  </h3>
+                  <p class="artista-convidado">Convidada - <span class="artista-convidado">Mariene de Castro</span></p>
+                  <p class="prog-subtitle">
+                    Desfile das Escolas de Samba do Grupo Especial
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide beijame swiper-lazy">
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                <div class="prog-texto">
+                  <h2 class="prog-data">
+                    Beija-me
+                  </h2>
+                  <h3 class="prog-nome-artista">
+                    Samba S. C. canta <span class="prog-nome-artista-destaque"> Elza Soares</span>
+                  </h3>
+                  <p class="artista-convidado">Convidada - <span class="artista-convidado">Elza Soares</span></p>
+                  <p class="prog-subtitle">
+                    Desfile das Escolas de Samba do Grupo Especial
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide sambapragente swiper-lazy">
+                <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+                <div class="prog-texto">
+                  <h2 class="prog-data">
+                    Samba pra gente Sambar
+                  </h2>
+                  <h3 class="prog-nome-artista">
+                    Samba S. C.<span class="prog-nome-artista-destaque"> canta Alcione</span>
+                  </h3>
+                  <p class="artista-convidado">Convidada - <span>Alcione</span></p>
+                  <p class="prog-subtitle">
+                    Desfile das Escolas de Samba Campeãs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-container gallery-thumbs">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide noselect">
+                <p class="prog-dia ">sex <br><span class="prog-dia-mes">01.mar</span></p>
+              </div>
+              <div class="swiper-slide noselect">
+                <p class="prog-dia">sáb <br><span class="prog-dia-mes">02.mar</span></p>
+              </div>
+              <div class="swiper-slide noselect">
+                <p class="prog-dia">dom <br><span class="prog-dia-mes">03.mar</span></p>
+              </div>
+              <div class="swiper-slide noselect">
+                <p class="prog-dia">seg <br><span class="prog-dia-mes">04.mar</span></p>
+              </div>
+              <div class="swiper-slide noselect">
+                <p class="prog-dia">sáb <br><span class="prog-dia-mes">09.mar</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+        <div class="swiper-lazy fotos-interslides fotos-interslides__15">
+          <span class="sr-only">Carro alegórico de uma das escolas de samba durante um desfile no Sambódromo Marques de Sapucaí</span>
+          <div class="swiper-lazy-preloader swiper-lazy-preloader-white"></div>
+        </div>
+      </div>
+      <!-- ESCOLAS DE SAMBA -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="desfiles">
+            <div class="swiper-container swiper-escolas">
+              <div class="swiper-wrapper">
+                <!-- SEXTA -->
+                <div class="swiper-slide">
+                  <div class="programacao-title escolas-title escolas-bg sex">
+                    <div class="escolas-title-text"><h2>Desfiles das Escolas de Samba</h2> 
+                      <p>Série A - Dia 1</p>
+                    </div>
+                  </div>
+                  <div class="bandeiras-escolas">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <img src="../assets/bandeiras-sex1-01.jpg">
+                        <div class="legenda-escolas">
+                          <p>Unidos da Ponte</p>
+                          <p>22:00H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sex1-02.jpg">
+                        <div class="legenda-escolas">
+                          <p>Alegria da Zona Sul</p>
+                          <p>22:45H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sex1-03.jpg">
+                        <div class="legenda-escolas">
+                          <p>Acadêmicos da Rocinha</p>
+                          <p>23:30H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sex1-04.jpg">
+                        <div class="legenda-escolas">
+                          <p>Acadêmicos de Santa Cruz</p>
+                          <p>00:15H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sex1-05.jpg">
+                        <div class="legenda-escolas">
+                          <p>Unidos de Padre Miguel</p>
+                          <p>01:00H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sex1-06.jpg"> 
+                        <div class="legenda-escolas">
+                          <p>Inocentes de Belford Roxo</p>
+                          <p>01:45H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sex1-07.jpg">
+                        <div class="legenda-escolas">
+                          <p>Acadêmicos do Sossego</p>
+                          <p>02:30H</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- SABADO -->
+                <div class="swiper-slide">
+                  <div class="programacao-title escolas-title escolas-bg sab">
+                    <div class="escolas-title-text"><h2>Desfiles das Escolas de Samba</h2> 
+                      <p>Série A - Dia 2</p>
+                    </div>
+                  </div>
+                  <div class="bandeiras-escolas">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <img src="../assets/bandeiras-sab1-01.jpg">
+                        <div class="legenda-escolas">
+                          <p>Unidos de Bangu</p>
+                          <p>22:00H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sab1-02.jpg">
+                        <div class="legenda-escolas">
+                          <p>Renascer de Jacarepaguá</p>
+                          <p>22:45H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sab1-03.jpg">
+                        <div class="legenda-escolas">
+                          <p>Estácio de Sá</p>
+                          <p>23:30H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sab1-04.jpg">
+                        <div class="legenda-escolas">
+                          <p>Unidos do Porto da Pedra</p>
+                          <p>00:15H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sab1-05.jpg">
+                        <div class="legenda-escolas">
+                          <p>Império da Tijuca</p>
+                          <p>01:00H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-sab1-06.jpg"> 
+                        <div class="legenda-escolas">
+                          <p>Acadêmicos do Cubango</p>
+                          <p>01:45H</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- DOMINGO -->
+                <div class="swiper-slide">
+                  <div class="programacao-title escolas-title escolas-bg dom">
+                    <div class="escolas-title-text"><h2>Desfiles das Escolas de Samba</h2> 
+                      <p>Grupo Especial - Dia 1</p>
+                    </div>
+                  </div>
+                  <div class="bandeiras-escolas">
+                    <div class="row no-gutters">
+                      <div class="col-3">
+                        <img src="../assets/bandeiras-dom1-01.jpg">
+                        <div class="legenda-escolas">
+                          <p>Império Serrano</p>
+                          <p>21:15H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-dom1-02.jpg">
+                        <div class="legenda-escolas">
+                          <p>Viradouro</p>
+                          <p>22:20H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-dom1-03.jpg">
+                        <div class="legenda-escolas">
+                          <p>Grande Rio</p>
+                          <p>23:25H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-dom1-04.jpg">
+                        <div class="legenda-escolas">
+                          <p>Salgueiro</p>
+                          <p>00:30H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-dom1-05.jpg">
+                        <div class="legenda-escolas">
+                          <p>Beija-Flor</p>
+                          <p>01:35H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-dom1-06.jpg"> 
+                        <div class="legenda-escolas">
+                          <p>Imperatriz</p>
+                          <p>02:40H</p>
+                        </div>
+                      </div>
+                      <div class="col-3"><img src="../assets/bandeiras-dom1-07.jpg"> 
+                        <div class="legenda-escolas">
+                          <p>Unidos da Tijuca</p>
+                          <p>03:45H</p>
+                        </div></div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- SEGUNDA -->
+                  <div class="swiper-slide">
+                    <div class="programacao-title escolas-title escolas-bg seg">
+                      <div class="escolas-title-text"><h2>Desfiles das Escolas de Samba</h2> 
+                        <p>Grupo Especial - Dia 2</p>
+                      </div>
+                    </div>
+                    <div class="bandeiras-escolas">
+                      <div class="row no-gutters">
+                        <div class="col-3">
+                          <img src="../assets/bandeiras-seg1-01.jpg">
+                          <div class="legenda-escolas">
+                            <p>São Clemente</p>
+                            <p>21:15H</p>
+                          </div>
+                        </div>
+                        <div class="col-3"><img src="../assets/bandeiras-seg1-02.jpg">
+                          <div class="legenda-escolas">
+                            <p>Vila Isabel</p>
+                            <p>22:20H</p>
+                          </div>
+                        </div>
+                        <div class="col-3"><img src="../assets/bandeiras-seg1-03.jpg">
+                          <div class="legenda-escolas">
+                            <p>Portela</p>
+                            <p>23:25H</p>
+                          </div>
+                        </div>
+                        <div class="col-3"><img src="../assets/bandeiras-seg1-04.jpg">
+                          <div class="legenda-escolas">
+                            <p>União da Ilha</p>
+                            <p>00:30H</p>
+                          </div>
+                        </div>
+                        <div class="col-3"><img src="../assets/bandeiras-seg1-05.jpg">
+                          <div class="legenda-escolas">
+                            <p>Paraíso do Tuiutí</p>
+                            <p>01:35H</p>
+                          </div>
+                        </div>
+                        <div class="col-3"><img src="../assets/bandeiras-seg1-06.jpg"> 
+                          <div class="legenda-escolas">
+                            <p>Mangueira</p>
+                            <p>02:40H</p>
+                          </div>
+                        </div>
+                        <div class="col-3"><img src="../assets/bandeiras-seg1-07.jpg"> 
+                          <div class="legenda-escolas">
+                            <p>Mocidade</p>
+                            <p>03:45H</p>
+                          </div></div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- SABADO 2 -->
+                    <div class="swiper-slide">
+                      <div class="programacao-title escolas-title escolas-bg sab2">
+                        <div class="escolas-title-text"><h2>Desfiles das Escolas de Samba</h2> 
+                          <p>Grupo Especial - Campeãs</p>
+                        </div>
+                      </div>
+                      <div class="bandeiras-escolas">
+                        <div class="row no-gutters">
+                          <div class="col-3">
+                            <img src="../assets/bandeiras-sab2-01.jpg">
+                            <div class="legenda-escolas">
+                              <p>6ª Colocada</p>
+                              <p>22:00H</p>
+                            </div>
+                          </div>
+                          <div class="col-3"><img src="../assets/bandeiras-sab2-02.jpg">
+                            <div class="legenda-escolas">
+                              <p>5ª Colocada</p>
+                              <p>23:05H</p>
+                            </div>
+                          </div>
+                          <div class="col-3"><img src="../assets/bandeiras-sab2-03.jpg">
+                            <div class="legenda-escolas">
+                              <p>4ª Colocada</p>
+                              <p>00:10H</p>
+                            </div>
+                          </div>
+                          <div class="col-3"><img src="../assets/bandeiras-sab2-04.jpg">
+                            <div class="legenda-escolas">
+                              <p>3ª Colocada</p>
+                              <p>01:15H</p>
+                            </div>
+                          </div>
+                          <div class="col-3"><img src="../assets/bandeiras-sab2-05.jpg">
+                            <div class="legenda-escolas">
+                              <p>2ª Colocada</p>
+                              <p>02:20H</p>
+                            </div>
+                          </div>
+                          <div class="col-3"><img src="../assets/bandeiras-sab2-06.jpg"> 
+                            <div class="legenda-escolas">
+                              <p>1ª Colocada</p>
+                              <p>03:25H</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>                
+                <div class="swiper-container datas-escolas">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide noselect">
+                      <p class="prog-dia ">sex <br><span class="prog-dia-mes">01.mar</span></p>
+                    </div>
+                    <div class="swiper-slide noselect">
+                      <p class="prog-dia">sáb <br><span class="prog-dia-mes">02.mar</span></p>
+                    </div>
+                    <div class="swiper-slide noselect">
+                      <p class="prog-dia">dom <br><span class="prog-dia-mes">03.mar</span></p>
+                    </div>
+                    <div class="swiper-slide noselect">
+                      <p class="prog-dia">seg <br><span class="prog-dia-mes">04.mar</span></p>
+                    </div>
+                    <div class="swiper-slide noselect">
+                      <p class="prog-dia">sáb <br><span class="prog-dia-mes">09.mar</span></p>
+                    </div>
+                  </div>
+                </div>
+      </div>       
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+        <div class="swiper-lazy fotos-interslides fotos-interslides__11"></div>
+      </div>
+      <!-- GASTRONOMIA -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="gastronomia">
+        <div class="gastronomia-title">
+          <h2>gastronomia</h2> 
+          <p>CHEF PEDRO DE ARTAGÃO</p>
+        </div>
+        <div class="swiper-gastro-1__foto1"></div>
+        <div class="swiper-container swiper-gastro2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="container gastro-container">
+                <div class="row">
+                  <div class="col-8 gastronomia-texto">
+                    <p>
+                     Após o sucesso absoluto em 2018, a Gastronomia do Camarote Rio Exxperience será novamente assinada pelo conceituado Chef Pedro de Artagão.
+                    </p>
+                    <p>
+                      <strong>Premiado como 'Chef Revelação' e também como 'Chef do Ano'</strong>, Pedro está à frente de negócios também premiados como o Restaurante Irajá, Azur e Formidable. 
+                    </p>
+                    <p>
+                      O menu 2019 foi especialmente elaborado para superar expectativas e surpreender os paladares mais exigentes. 
+                    </p>
+                    <div class="swiper-button-next"></div>
+                  </div>
+                  <div class="col-4">
+                    <div class="gastrochef"></div>
+                    <span class="sr-only">Chef Pedro de Artagão</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="destaques-gastro">
+                <div class="swiper-button-prev"></div>
+                <p>Destaques Menu 2019</p>
+                <ul>
+                  <li>Arroz de Bacalhau</li>
+                  <li>Rigatoni a la vodka</li>
+                  <li>Brisket, purê de baroa, cebola crocante</li>
+                  <li>Cordeiro de leite assado, canjiquinha de milho verde</li>
+                  <li>Legumes Mediterrâneos</li>
+                  <li>Vitelo tonato com rúcula selvagem, olivas marinadas</li>
+                  <li>Salada da horta queijo azul e beterrabas</li>
+                  <li>Salada Grega</li>
+                  <li>Baked potato de bacalhau</li>
+                  <li>Empada de Siri e Mascarpone</li>
+                  <li>Croquetinho de pernil, compota de abacaxi</li>
+                  <li>Pastel de bobó de camarão, tabasco caseiro </li>
+                  <li>Pudim de tapioca com caramelo e castanha do Pará</li>
+                  <li>Bolo de brigadeiro Irajá</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- OPEN BAR -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="openbar">
+        <div class="camarote-title">
+          <h2>open bar</h2> 
+          <p>SUPER PREMIUM</p>
+        </div>
+        <div class="swiper-container openbar-fotos">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../assets/open-bar-foto-mumm.jpg" alt="Espumante francesa Mumm">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/open-bar-foto-beefeater.jpg" alt="Gin Beefeater">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/open-bar-foto-absolut.jpg" alt="Vodka Absolut">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/open-bar-foto-chivas.jpg" alt="Whiskey Chivas">
+            </div>
+            <div class="swiper-slide">
+              <img src="../assets/open-bar-foto-therezopolis.jpg" alt="Cerveja Therezópolis">
+            </div>
+          </div>
+        </div>
+        <div class="row no-gutters openbar-menumarca">
+          <div class="col-6 openbar-menu">
+            <ul>
+              <li>Cervejas Especiais</li>
+              <li>  Therezópolis</li>
+              <li>Gin Beefeater</li>
+              <li>Vodka Absolut</li>
+              <li>Whisky Chivas</li>
+              <li>Espumante Mumm</li>
+              <li>Energético</li>
+              <li>Mixologia Exxclusiva</li>
+              <li>Água de Coco</li>
+              <li>Sucos</li>
+              <li>Água Mineral</li>
+              <li>Bebidas Leves</li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <div class="swiper-container openbar-marcas swiper-no-swiping">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="openbar-logos mumm"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="openbar-logos beefeater"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="openbar-logos absolut"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="openbar-logos chivas"></div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="openbar-logos therezopolis"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MEETING POINT -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="meetingpoint">
+        <div class="camarote-title">
+          <h2>meeting point</h2> 
+          <p>& POPUP STORE</p>
+          <div class="logo-casashopping"></div>
+        </div>
+        <div class="meeting-point__foto"></div>
+        <span class="sr-only">Área interna do mall do CasaShopping</span>
+        <div class="conteudo-texto">
+          <p>O Meeting Point Rio Exxperience é, definitivamente,  onde a magia se inicia. Nos dias de desfile, é lá você fará a troca dos ingressos pelos kits Rio Exxperience, a customização das camisas e o embarque no transporte executivo.</p>
+          <p>O Meeting Point Rio Exxperience está localizado num dos polos do Design no Rio, o CasaShopping. Um complexo de 70.000m² e 16 blocos que abriga as melhores Flag Ship Stores do segmento e é referência de inovação e bom gosto, refletindo as tendências internacionais de design e qualidade.
+          </p>
+          <p>E é no CasaShopping que te esperamos de braços abertos no Carnaval 2019!
+          </p>
+          <a href="https://goo.gl/maps/omp1S7D74Gv" target="_blank"><div class="comochegar">como chegar <i class="fas fa-map-marked-alt"></i></div></a>
+        </div>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page">
+        <div class="fotos-interslides fotos-interslides__12"></div>
+        <span class="sr-only">Porta Bandeira de uma das Escolas de Samba agradecendo o público durante desfile no Sambódromo Marques de Sapucaí</span>
+      </div>
+      <!-- COMO ACONTECE -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="comofunciona">
+        <div class="programacao-title escolas-title escolas-bg como-funciona-title">
+          <div class="escolas-title-text como-funciona-title-text">
+            <h2>Como funciona?</h2> 
+          </div>
+        </div>
+        <div class="conteudo-texto">
+          <h3>AGORA</h3>
+          <p><u>Compre seu ingresso</u> com segurança no site Eventim (em até 6x) ou: CasaShopping/Hotel Hilton (até 3x sem juros e sem taxa de conveniência)</p>
+          <h3>No dia - IDA</h3>
+          <ul>
+            <li>Welcome drink no <strong>Meeting Point</strong> CasaShopping - Barra da Tijuca ou no ponto de embarque zona sul Hotel HILTON Copacabana</li>
+            <li>Saídas periódicas Barra da Tijuca e Zona Sul</li>
+            <li><strong>Transporte Executivo</strong> com  conforto e segurança até a entrada do camarote no setor 7 do Sambódromo</li>
+          </ul>
+          <h3>No dia - VOLTA</h3>
+          <ul>
+            <li>Retornos periódicos ao <strong>Casa Shopping</strong> e Hotel <strong>HILTON</strong> Copacabana</li>
+          </ul>
+        </div>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+        <div class="swiper-lazy fotos-interslides fotos-interslides__13"></div>
+        <span class="sr-only">Mulher dançando sob uma chuva de papel picadas durante o carnaval no Camarote Rio Exxperience</span>
+      </div>
+      <!-- COMPRE AGORA -->
+      <div class="swiper-slide swiper-lazy swiper-slide-page" id="vendas">
+        <div class="camarote-title">
+          <h2>compre agora!</h2> 
+          <p>EMOÇÃO . ENCANTAMENTO . CONFORTO . SOFISTICAÇÃO</p>
+        </div>
+        <div class="vendas__wrapper">
+          <div class="vendas__tabela">
+            <div class="row datas-vendas no-gutters">
+              <div class="col-7">
+                <p class="prog-dia2">Sexta.01.Mar<br>
+                  <span class="prog-dia-mes">Série A - Dia 1</span>
+                </p>
+              </div>
+              <div class="col-3 vendas__preco">
+                <span>R$880</span>
+              </div>
+              <div class="col-2">
+                <a href=" https://bit.ly/RioExxperience-Sexta" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span>
+                </button></a>
+              </div>
+            </div>
+            <div class="row datas-vendas no-gutters">
+              <div class="col-7">
+                <p class="prog-dia2">Sábado.02.Mar<br>
+                  <span class="prog-dia-mes">Séria A - Dia 2</span>
+                </p>
+              </div>
+              <div class="col-3 vendas__preco">
+                <span>R$1.000</span>
+              </div>
+              <div class="col-2">
+                <a href="https://bit.ly/Rio-Exxperience-Sabado" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+              </div>
+            </div>
+            <div class="row datas-vendas no-gutters">
+              <div class="col-7">
+                <p class="prog-dia2">Domingo.03.Mar<br>
+                  <span class="prog-dia-mes">Grupo Especial - Dia 1</span>
+                </p>
+              </div>
+              <div class="col-3 vendas__preco">
+                <span>R$2.200</span>
+              </div>
+              <div class="col-2">
+                <a href="https://bit.ly/Rio-Exxperience-Domingo" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+              </div>
+            </div>
+            <div class="row datas-vendas no-gutters">
+              <div class="col-7">
+                <p class="prog-dia2">Segunda.04.Mar<br>
+                 <span class="prog-dia-mes">Grupo Especial - Dia 2</span>
+               </p>
+             </div>
+             <div class="col-3 vendas__preco">
+              <span>R$2.200</span>
+            </div>
+            <div class="col-2">
+              <a href="https://bit.ly/Rio-Exxperience-Segunda" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+            </div>
+          </div>
+          <div class="row datas-vendas no-gutters">
+            <div class="col-7">
+              <p class="prog-dia2">Sábado.09.Mar<br>
+                <span class="prog-dia-mes">Campeãs</span>
+              </p>
+            </div>
+            <div class="col-3 vendas__preco">
+              <span>R$2.000</span>
+            </div>
+            <div class="col-2">
+              <a href="https://bit.ly/Rio-Exxperience-Campeas" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+            </div>
+          </div>
+          <div class="row datas-vendas no-gutters">
+            <div class="col-7">
+              <p class="prog-dia2">Pacote 2 Dias<br>
+                <span class="prog-dia-mes">Grupo Especial</span>
+              </p>
+            </div>
+            <div class="col-3 vendas__preco">
+              <span>R$4.125</span>
+            </div>
+            <div class="col-2">
+              <a href="http://bit.ly/Rio-Exxperience-2Dias" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+            </div>
+          </div>
+          <div class="row datas-vendas no-gutters">
+            <div class="col-7">
+              <p class="prog-dia2">Pacote 3 Dias<br>
+                <span class="prog-dia-mes">Grupo Especial + Campeãs</span>
+              </p>
+            </div>
+            <div class="col-3 vendas__preco">
+              <span>R$6.000</span>
+            </div>
+            <div class="col-2">
+              <a href="http://bit.ly/Rio-Exxperience-3Dias" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+            </div>
+          </div>
+          <div class="row datas-vendas no-gutters">
+            <div class="col-7">
+              <p class="prog-dia2">Pacote 5 Dias<br>
+                <span class="prog-dia-mes">Série A + Especial + Campeãs</span>
+              </p>
+            </div>
+            <div class="col-3 vendas__preco">
+              <span>R$7.762</span>
+            </div>
+            <div class="col-2">
+              <a href="http://bit.ly/Rio-Exxperience-5Dias" target="_blank"><button><i class="fas fa-shopping-cart"></i><span class="sr-only">Comprar Ingresso</span></button></a>
+            </div>
+          </div>
+          <div class="row no-gutters eventim">
+           <div class="col-8">
+            <p>Valores promocionais com 20% de desconto por tempo indeterminado.</p>
+            <i class="fas fa-credit-card"></i>Parcele em até <span>6x</span> no cartão.
+          </div>
+          <div class="col-4">
+            <img src="../assets/compre-agora-logoeventim.png" alt="Eventim">
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <!-- FOTO INTERSLIDE -->
+      <div class="swiper-slide swiper-slide-page"> 
+        <div class="swiper-lazy fotos-interslides fotos-interslides__14"></div>
+      </div>
+      <!-- CONTATO -->
+      <div class="swiper-slide swiper-slide-page" id="contato">
+        <div class="camarote-title">
+          <h2>fale conosco</h2> 
+        </div>
+        <div class="contato-wrapper">
+          <div class="formcontato">
+            <p class="formcontatotitle">Formulário de Contato</p>
+            <form id="rioexxpform" role="form" name="htmlform" method="post" action="send_form_email.php">
+              <div class="messages"></div>
+              <div class="controls"></div>
+              <div class="rendered-form">
+                <div class="fb-text form-group field-text-1547414241843">
+                  <div class="help-block with-errors"></div>
+                  <label for="first_name" class="fb-text-label"></label>
+                  <input type="text" required="required" placeholder="Nome" class="form-control" name="first_name" id="text-1547414241843"  data-error="Não esqueça seu nome.">
+                </div>
+                <div class="fb-text form-group field-email">
+                  <div class="help-block with-errors"></div>
+                  <label for="email" class="fb-text-label"></label>
+                  <input type="email" required="required" placeholder="E-mail" class="form-control" name="email" id="email"  data-error="Está faltando seu e-mail.">
+                </div>
+                <div class="help-block with-errors"></div>
+                <div class="fb-text form-group field-text-1547414270678">
+                  <label for="telephone" class="fb-text-label"></label>
+                  <input type="tel" placeholder="Telefone" class="form-control" name="telephone" id="text-1547414270678">
+                </div>
+                <div class="help-block with-errors"></div>
+                <div class="fb-textarea form-group field-textarea-1547414308886">
+                  <div class="help-block with-errors"></div>
+                  <label for="comments" class="fb-textarea-label"></label>
+                  <textarea data-error="Escreva para nós :)" type="textarea" required="required" placeholder="Mensagem" class="form-control" name="comments" id="textarea-1547414308886"></textarea>
+                </div>
+                <div class="help-block with-errors"></div>
+                <div class="fb-button form-group field-button-1547414338187">
+                  <button type="submit" name="button-1547414338187" id="button-1547414338187">enviar <i class="fas fa-chevron-right"></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="box-contato">
+            <p class="formcontatotitle">Contato direto</p>
+            <p><a href="https://wa.me/5521979568317?text=Olá!%20Estou%20no site%20e%20gostaria%20de%20mais%20informações%20sobre%20o%20Camarote%20Rio%20Exxperience." target="_blank">+55 21 97956 8317 <i class="fab fa-whatsapp"></i></a>  |  <a href="tel:+552130851000" target="_blank"><span class="telefones">+55 21 3085 1000</span></a></p>
+            <p><a href="mailto:contato@rioexxperience.com">contato@rioexxperience.com</a></p>
+          </div>
+          <div class="realizacao">
+            <div class="row no-gutters">
+              <div class="col-6">
+                <div class="swiper-container swiper-realizacao-text swiper-no-swiping">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <p>Apresentação:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Parceiros:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Hotel Oficial</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Agradecimentos:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Agradecimentos:</p>
+                    </div>
+                    <div class="swiper-slide">
+                      <p>Realização:</p>
+                    </div>
+                  </div>
+                </div>
+              </div>    
+              <div class="col-6">
+                <div class="swiper-container swiper-realizacao">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos barizon"></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos casashopping"></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos ied"></div>
+
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos therezopolis"></div>
+
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos beefeater"></div>
+
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos chivas"></div>
+
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos absolut"></div>
+
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="realizacao-logos mumm"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos perrier"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos pedrodeartagao"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos minimalistas"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos retratil"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos valente"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos apresenta"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos hilton"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos liesa"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos riotur"></div>
+
+                    </div>
+                    <div class="swiper-slide ">
+                      <div class="realizacao-logos barizon"></div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <p class="creditos-garadj">Design e Desenvolvimento: <a href="http://www.gara.dj" target="_blank">Garadj</a></p>
+          </div>
+        </div>
+      </div>
+    <!-- Swiper Page Wrapper --> 
+  </div>
+  <!-- Swiper Page Container --> 
+</div>
+</div>  
+      <!-- Estrutura Parallax 
+      <div id="container" class="container">
+      <div id="scene" class="scene"></div>
+      </div>
+      -->
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+      <script>
+        WebFont.load({
+          google: {
+            families: ['Raleway:200,300,400,500,600,700,800,900']
+          }
+        });
+      </script>
+      <!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+      <script src="scripts/lightgallery-all.min.js"></script>
+      <!-- lightgallery plugins -->
+      <script> (function() { var v = document.getElementsByClassName("youtube-player"); for (var n = 0; n < v.length; n++) { v[n].onclick = function () { var iframe = document.createElement("iframe"); iframe.setAttribute("src", "//www.youtube.com/embed/" + this.dataset.id + "?autoplay=1&autohide=2&border=0&wmode=opaque&enablejsapi=1&rel="+ this.dataset.related +"&controls="+this.dataset.control+"&showinfo=" + this.dataset.info); iframe.setAttribute("frameborder", "0"); iframe.setAttribute("id", "youtube-iframe"); iframe.setAttribute("style", "width: 100%; height: 100%; position: absolute; top: 0; left: 0;"); if (this.dataset.fullscreen == 1){ iframe.setAttribute("allowfullscreen", ""); } while (this.firstChild) { this.removeChild(this.firstChild); } this.appendChild(iframe); }; } })(); </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
+      <script>window.jQuery || document.write('<script src="scripts/scripts/swiper.min.js"><\/script>')</script>
+
+      <script type="text/javascript">
+       /*Swiper*/
+
+       document.onreadystatechange = function(e)
+       {
+           if (document.readyState === 'complete')
+           {
+               //dom is ready, window.onload fires later
+               var swiperPage = new Swiper ('#swiper-container-page', {
+                   direction: 'vertical',
+                   mousewheel: true,
+                   keyboard: true,
+                   grabCursor: true,
+                   preloadImages: false,
+                   lazy: true,
+                   // Optional parameters
+                 });
+           }
+       };
+       window.onload = function(e)
+       {
+           //document.readyState will be complete, it's one of the requirements for the window.onload event to be fired
+           //do stuff for when everything is loaded
+            var swiperHome = new Swiper ('#swiper-container-home', {
+              // Autoplay
+                autoplay: {
+                delay: 1500,
+                },
+                direction: 'horizontal',
+                loop: true,
+                effect: 'coverflow',
+                grabCursor: true,
+                parallax: true,
+                preloadImages: false,
+                // Optional parameters
+              });
+
+            /*Swiper Programacao*/
+
+             var galleryThumbs = new Swiper('.gallery-thumbs', {
+                  slidesPerView: 5,
+                  watchSlidesVisibility: true,
+                  watchSlidesProgress: true,
+                });
+             var galleryTop = new Swiper('.gallery-top', {
+                  spaceBetween: 10,
+                   // Autoplay
+                  autoplay: {
+                   delay: 3000,
+                  },
+                  loop: true,
+                   thumbs: {
+                    swiper: galleryThumbs,
+                  }
+                });
+
+             /*Swiper Escolas*/
+
+            var datasEscolas = new Swiper('.datas-escolas', {
+                  slidesPerView: 5,
+                  watchSlidesVisibility: true,
+                  watchSlidesProgress: true,
+                });
+            var swiperEscolas = new Swiper('.swiper-escolas', {
+                  spaceBetween: 10,
+                    // Autoplay
+                  autoplay: {
+                    delay: 3000,
+                  },
+                  loop: true,
+                    thumbs: {
+                    swiper: datasEscolas,
+                  },
+                });
+
+            /*Swiper Estrutura*/
+
+            var swiperEstrutura = new Swiper ('.swiper-estrutura', {
+                // Optional parameters
+                direction: 'horizontal',
+                grabCursor: true,
+                 // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              });
+
+            /*Swiper Fotos da Estrutura*/
+
+            var swiperEstrutura = new Swiper ('.swiper-fotosestrutura', {
+                // Optional parameters
+                direction: 'horizontal',
+                grabCursor: true,
+                loop: true,
+                effect: 'coverflow',
+                 // Navigation arrows
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              });
+
+
+            /*Swiper Gastro*/
+
+            var swiperGastronomia2 = new Swiper ('.swiper-gastro2', {
+                // Optional parameters
+                direction: 'horizontal',
+                grabCursor: true,
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              });
+
+             /*Swiper OpenBar*/
+
+            var openbarMarcas = new Swiper('.openbar-marcas', {
+                  slidesPerView: 1,
+                  watchSlidesVisibility: true,
+                  watchSlidesProgress: true,
+                });
+
+            var openbarFotos = new Swiper('.openbar-fotos', {
+                  spaceBetween: 10,
+                    // Autoplay
+                  autoplay: {
+                    delay: 3000,
+                  },
+                  loop: true,
+                  thumbs: {
+                  swiper: openbarMarcas,
+                  }
+                });
+
+             /*Swiper Creditos*/
+
+            var realizacaoText = new Swiper('.swiper-realizacao-text', {
+                  slidesPerView: 1,
+                  watchSlidesVisibility: true,
+                  watchSlidesProgress: true,
+                  effect: 'fade',
+                });
+
+            var realizacao = new Swiper('.swiper-realizacao', {
+                  spaceBetween: 10,
+                    // Autoplay
+                  autoplay: {
+                    delay: 3000,
+                  },
+                  loop: true,
+                    thumbs: {
+                    swiper: realizacaoText,
+                  }
+                });
+       };
+
+      </script>
+      <script src="validator.js"></script>
+       <script src="contactform.js"></script>
+       </body>
+</html>

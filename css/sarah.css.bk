@@ -1,0 +1,1860 @@
+@import "normalize.css";
+@import "hamburgers.css";
+@import "bootstrap.scss";
+
+// Variables
+@text-color:		white;
+@link-color:        white;
+@link-color-hover:  darken(@link-color, 50%);
+@letter-spacing-geral: 	.1px;
+@background-geral: url(../assets/bg-geral.jpg);
+@bordernav: 1px solid white;
+@nav-height: 40px;
+@max-width-wrapper:66vh;
+
+// Usage
+
+body {
+	background-image: @background-geral;
+	background-size: cover;
+	font-family: 'Raleway';
+	color: @text-color;
+	letter-spacing: @letter-spacing-geral;
+	padding-top: @nav-height;
+}
+
+
+.sgnav-top {
+	border-bottom: @bordernav;
+	padding:.5em;
+	position: fixed;
+	top: 0;
+	z-index: 999999;
+	width: 100%;
+	height: @nav-height;
+	background: @background-geral no-repeat center ;
+	background-size: cover
+}
+
+.sgnav-top .rioexxlogo {
+}
+
+.sgnav-top .infoevenda {
+	text-align: right;
+	line-height: 1em;
+	font-size: .80em;
+	font-weight: 600;
+}
+
+.sgnav-top .infoevendatext {
+	display: block;
+	font-weight: 900;
+}
+
+a,
+.link {
+	color: @link-color;
+}
+a:hover,
+a:visited {
+	color: @link-color;
+	text-decoration: none;
+}
+
+.icon-link, .icon-link:hover {
+	color: white;
+	font-size: 2em;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+/* Menu */
+
+.navbar-header {
+	float: none;
+}
+
+.sgnav-bottom {
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	background: @background-geral no-repeat center ;
+	background-size: cover;
+	z-index: 99999;
+	height: @nav-height;
+	border-top: @bordernav;
+}
+
+.sgnav-bottom .container-fluid {
+	padding: 0;
+}
+
+.sgnav-bottom button {
+	outline-color: transparent !important;
+}
+
+.compreagora {
+	margin-bottom:-.5em;
+}
+
+.compre-style {
+	font-weight: 600;
+	font-size: 1em;
+	display: block;
+	line-height: .5em;
+}
+
+.agora-style {
+	font-weight: bolder;
+	font-size: 1.2em;
+	line-height: .5em;
+}
+
+.modal-fullscreen-menu {
+
+	.modal-dialog {
+		margin: 0 auto;
+		width: 100%;
+		max-width: 768px;
+		display: flex;
+		height: 100%;
+		align-items: center;
+		padding-bottom: 40px;
+	}
+
+	.modal-content {
+		background-color: transparent;
+		box-shadow: none;
+		border: none;
+	}
+
+	.list-group {
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+
+		a {
+			font-size: 200%;
+			font-weight: 200;
+			letter-spacing: 0.05em;
+			border: none;
+			transition: all 0.25s ease;
+			background-color: transparent;
+			color: white;
+			padding: 7.5vh 0;
+			height: 5vh;
+			font-size: 5vh;
+			line-height: 0;
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: white;
+				z-index: -1;
+				opacity: 0;
+				transform: scale3d(0.7, 1, 1);
+				transition: transform 0.4s, opacity 0.4s;
+			}
+
+			&:hover {
+				color: black;
+
+				&:before {
+					transform: translate3d(0, 0, 0);
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+.modal-backdrop {
+	&.in {
+		opacity: 1;
+	}
+}
+
+/*HAMBURGER*/
+
+@hamburger-width: 40px;
+
+.hamburger {
+	padding: 0 10px;
+}
+
+.hamburger-box {
+	bottom:-2px;
+}
+.hamburger--collapse .hamburger-inner::after {
+	top: -16px;
+}
+
+.hamburger-inner::before {
+	top: -8px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+	width: @hamburger-width;
+	height: 2px;
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after, .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
+	background-color: white;
+}
+
+.hamburger-box {
+	width: @hamburger-width;
+}
+
+/*HOME*/
+
+#swiper-container-page {
+	height: 100vh;
+}
+
+.fotos-interslides {
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 100%;
+	} 
+
+.fotos-interslides__1 {
+	background-image:url('../assets/002-foto.jpg')
+}
+.fotos-interslides__2 {
+	background-image:url('../assets/033--foto.jpg')
+}
+.fotos-interslides__3 {
+	background-image:url('../assets/038-foto.jpg')
+}
+
+.swiper-fotosestrutura {
+	width: 100%;
+	height: 100%;
+}
+
+.fotos-interslides__4 {
+	background-image:url('../assets/001-foto.jpg')
+}
+.fotos-interslides__5 {
+	background-image:url('../assets/034--foto.jpg')
+}
+.fotos-interslides__6 {
+	background-image:url('../assets/034--foto-3.jpg')
+}
+.fotos-interslides__7 {
+	background-image:url('../assets/071-foto.jpg')
+}
+.fotos-interslides__8 {
+	background-image:url('../assets/036-foto.jpg')
+}
+.fotos-interslides__9 {
+	background-image:url('../assets/035-foto.jpg')
+}
+.fotos-interslides__10 {
+	background-image:url('../assets/037-foto.jpg')
+}
+.fotos-interslides__11 {
+	background-image:url('../assets/047-foto.jpg')
+}
+.fotos-interslides__12 {
+	background-image:url('../assets/094-foto.jpg');
+}
+.fotos-interslides__13 {
+	background-image:url('../assets/093-foto.jpg')
+}
+.fotos-interslides__14 {
+	background-image:url('../assets/046-foto.jpg')
+}
+.fotos-interslides__15 {
+	background-image:url('../assets/095-foto.jpg')
+}
+
+
+.swiper-slide-page {
+	height: 100vh;
+}
+
+.home {
+	height: 100%;
+}
+
+#swiper-container-home {
+	width: 100%;
+	height: 100%;
+	&:after {
+		background: url('../assets/logos.png') no-repeat;
+		background-size: contain;
+		background-position: center;
+		content: '';
+		z-index: 99999;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		max-width:18em;
+		height: 50px;
+		.transform-h-centering();
+	}
+}
+
+.swiper-slide .home img {
+	height: 100%;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.swiper-subtitle {
+	bottom:0;
+	padding:8em 1.5em 4em;
+	width: 100%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(60,0,0,0.8) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(60,0,0,.8) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(60,0,0,.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.swiper-subtitle .title {
+	font-size: 28px;
+	font-size: 8.75VW;
+	font-weight: 600;
+	line-height: 1.2em;
+	letter-spacing: -2px;
+	padding-bottom:.2em;
+}
+
+.subtitle-destaque {
+	font-weight: 900;
+}
+
+.swiper-subtitle .subtitle {
+	font-size: 16px;
+	font-size: 5VW;
+	font-style: italic;
+	line-height: 1.2em;
+	letter-spacing: -1px;
+	font-weight: 600;
+}
+
+.swiper-pagination {
+	padding-bottom: 1.8em;
+}
+.swiper-pagination-bullet-active {
+	background: rgba(255,255,255,1) !important;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+	margin: 0 2px !important;
+}
+
+.swiper-pagination-bullet {
+	width: 5px !important;
+	height: 5px !important;
+	border: 0.5px solid white;
+	opacity: 0.8 !important;
+}
+
+/*PROGRAMACAO*/
+
+.programacao {
+	position: relative;
+}
+
+#swiper-programacao {
+	height: 100%;
+}
+
+.bg-programacao-artistas {
+	content:'';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	filter: drop-shadow(0 3px 3px hsla(0, 0%, 0%,.25));
+}
+
+.sonhomeu:after {
+	background: url('../assets/programacao-01.png') no-repeat;
+	background-size: 100vw;
+	.bg-programacao-artistas();
+}
+
+.voufestejar:after {
+	background: url('../assets/programacao-02.png') no-repeat;
+	background-size: 105%;
+	.bg-programacao-artistas();
+	background-position: 30% 40%;
+}
+
+.deixaclarear:after {
+	background: url('../assets/programacao-03.png') no-repeat;
+	background-size: 60vh;
+	.bg-programacao-artistas();
+	background-position: 50% 30%;
+}
+
+.beijame:after {
+	background: url('../assets/programacao-04.png') no-repeat;
+	background-size: 65vh;
+	.bg-programacao-artistas();
+	background-position: 50% 0;
+}
+
+.sambapragente:after {
+	background: url('../assets/programacao-05.png') no-repeat;
+	background-size: 65vh;
+	.bg-programacao-artistas();
+	background-position: 50% 10%;
+}
+
+.programacao-title {
+	width: 100%;
+	padding: 20px 10px; 
+	position:absolute;
+	top: 0;
+	h2 {
+		font-weight:800;
+		font-size: 20px;
+		font-size: 6.25VW;
+		line-height: .2em;;
+	}
+	p {
+		font-size: 12px;
+		font-size: 3.75VW;
+		font-weight: 700;
+		font-style: italic;
+	}
+}
+
+
+.swiper-container.gallery-top {
+	width: 100%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	&:after {
+		content: '';
+		position:absolute;
+		bottom:0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(60,0,0,0.2) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+}
+
+.prog-texto {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding:0 15px;
+	letter-spacing: -.07em;
+}
+
+.prog-data {
+	font-size: 21.5px;
+	font-size: 6.71875VW;
+	font-weight: 900;
+	font-style: italic;
+	color: #500026;
+}
+
+
+.prog-nome-artista, .prog-nome-artista2 {
+	font-size: 13.6px;
+	font-size: 4.25VW;
+	font-weight: 800;
+	font-style: italic;
+}
+
+
+.prog-nome-artista2 {
+	font-style: normal;
+	line-height: .9em;
+}
+
+.prog-nome-artista-destaque {
+	font-size: 20px;
+	font-size: 6.25VW;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.artista-convidado {
+	line-height: 10px;
+	font-size: 20px;
+	font-size: 6.25VW;
+	font-weight: 500;
+	& span {
+		font-weight: 800;
+	}
+}
+
+
+.prog-subtitle {
+	font-size: 13px;
+	font-size: 4.0625VW;
+	font-weight: 700;
+	letter-spacing: initial;
+	font-style: italic;
+	letter-spacing: -.04em;
+}
+
+
+.swiper-container.gallery-thumbs, .datas-escolas {
+	width: 100%;
+	height: 10%;
+	border-top: .5px solid white;
+}
+
+.gallery-thumbs .swiper-slide:after,
+.datas-escolas .swiper-slide:after {
+	content:'';
+	position: absolute;
+	bottom:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(60,0,0,0.2) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+}
+
+.gallery-thumbs .swiper-slide,
+.datas-escolas .swiper-slide {
+	width: 20% !important;
+	height: 100%;
+	margin: 0 !important;
+	border-left: 1px solid transparent;
+}
+
+.gallery-thumbs .swiper-slide-thumb-active,
+.datas-escolas .swiper-slide-thumb-active {
+	opacity: 1;
+	background-color: white;
+	color: #500026;
+	&::after {
+		content:'';
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: white;
+	}
+}
+
+.prog-dia {
+	font-size: 23px;
+	font-size: 7.1874vw;
+	font-weight: 900;
+	line-height: .6em;
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 99999;
+}
+
+.prog-dia-mes {
+	font-size: 13px;
+	font-size: 4.0625VW;
+	font-weight: 600;
+}
+
+/*ESCOLAS*/
+
+/*datas-escolas: 10%*/
+
+.swiper-escolas {
+	height: 90%;
+}
+
+.escolas-title {
+	width: 100%;
+	height: 40%;
+	position: relative;
+	background: @background-geral;
+	background-size: 100%;
+}
+
+.escolas-bg {
+	&::after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		background-position: center;
+		background-size: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 0;
+		filter: opacity(.6);
+		mix-blend-mode: multiply;
+	}
+	&.sex::after {
+		background-image: url('../assets/desfile-foto-01.jpg');
+	}
+	&.sab::after {
+		background-image: url('../assets/desfile-foto-02.jpg');
+	}
+	&.dom::after {
+		background-image: url('../assets/desfile-foto-03.jpg');
+	}
+	&.seg::after {
+		background-image: url('../assets/desfile-foto-04.jpg');
+	}
+	&.sab2::after {
+		background-image: url('../assets/desfile-foto-05.jpg');
+	}
+}
+
+.escolas-title-text {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+}
+
+.bandeiras-escolas {
+	height: 60%;
+	.row {
+		width: 100;
+		height: 100%;
+		div  {
+			height: 50%;
+		}
+		& > div {
+			border: 1px solid transparent;
+			overflow: hidden;
+		}
+		& > div:after {
+			content:'';
+			position: absolute;
+			bottom:0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(60,0,0,0.2) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+			z-index: -1;
+		}
+	}
+	img {
+		padding: 5px;
+		filter: drop-shadow(0 3px 3px hsla(0, 0%, 0%,.25));
+		width: 100%;
+		height: 50%;
+		object-fit: cover;
+	}
+}
+
+.legenda-escolas {
+	padding: 5px;
+	font-size: 12px;
+	font-size: 3.75VW;
+	font-weight: 600;
+	line-height: 13px;
+	font-style: italic;
+	letter-spacing: -.8px
+}
+
+/*DETALHES*/
+
+.swiper-slider-page-tabela {
+	padding: 30px 0;
+}
+
+.table-rioexxp {
+	height: 100%;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 20px;
+	font-size: 5.5vw;
+	letter-spacing: -0.06em;
+	line-height: 1em;
+	& tr:nth-child(odd) {
+		font-style: normal;
+	}
+	& td {
+		.align-middle();
+	}
+	& td:nth-child(2){
+		font-size: 2.7em;
+		font-weight: 200;
+		font-style: normal;
+	}
+	& span {
+		font-size: 4.1vw;
+		display: block;
+		letter-spacing: -0.03em;
+	}
+}
+
+/*GALERIA*/
+
+.lg-outer {
+	height: calc(100% - @nav-height - @nav-height) !important;
+	margin-top: 40px;
+}
+
+#lg-zoom-in::after, #lg-zoom-out::after {
+	display: none;
+
+}
+#lightgallery {
+	height: 100%;
+	img  {
+		width: 100%;
+		height: 100%;
+		object-fit: cover; /* Do not scale the image */
+		z-index: 0;
+		position: absolute;
+	}
+}
+
+
+/*O CAMAROTE*/
+
+.camarote-title {
+	.programacao-title();
+	position: relative;
+	width: 100%;
+	p {
+		font-weight: 800;
+		font-size: 11px;
+		font-size: 3.3vw;
+		margin: 0;
+	}
+}
+
+.galeriacamarote {
+	height: 50%;
+	padding: 0;
+	.row {
+		height: 100%;
+		div {
+			border: .5px solid transparent;
+		}
+		.col-12 {
+			height: 60%;
+		}
+		.col-4 {
+			height: 40%;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: 50% 20%;
+		}
+	}
+}
+
+.camarote-texto {
+	font-style: italic;
+	padding: 20px;
+	font-size: 14px;
+	font-size: 4.375VW;
+	line-height: 1.3em;
+	span {
+		font-weight: 800;
+	}
+	.legenda-localizacao {
+		position: relative;
+		top: 0;
+		left: 0;
+		padding: 0;
+		ol { 
+			counter-reset: item;
+			list-style-type: none;
+			padding: 0;
+			font-size: 13px;
+			font-weight: 700;
+			font-style: italic;
+			letter-spacing: -0.9px;
+		}
+		li { display: block; margin-bottom: 1px; }
+		li:before { 
+			display: inline-block;
+			content:'';
+			font-style: normal;
+			color: #53031F;
+			background-color: white;
+			width: 18px;
+			height: 18px;
+			-moz-border-radius: 12px;
+			-webkit-border-radius: 12px;
+			border-radius: 12px;
+			padding: 0 6px;
+			margin-right: 4px;
+		}
+		li:nth-child(1):before {
+			content: 'a';
+		}
+		li:nth-child(2):before {
+			content: 'b';
+		}
+		li:nth-child(3):before {
+			content: 'c'
+		}
+	}
+}
+
+
+/* LOCALIZAÇAO*/
+
+.localizacao-bg {
+	height: 17vh;
+	width: 100%;
+	background: @background-geral;
+	opacity: .9;
+	position: relative;
+	&:after {
+		content:'';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: url('../assets/mapa-localizacao-bolas.png') no-repeat;
+		background-size: 57vh;
+	}
+}
+
+.localizacao {
+	height: 100%;
+	width: 100%;
+	background: url('../assets/mapa-localizacao.jpg') no-repeat;
+	background-size: 57vh;
+	position: relative;
+	mix-blend-mode: darken;
+}
+
+.swiper-estrutura {
+	height: 100%;
+	.programacao-title {
+		position: relative;
+		z-index: 1;
+	}
+	.swiper-button-prev, .swiper-button-next {
+		filter: grayscale(100%) brightness(4) contrast(1);
+		height: 30px;
+		width: 30px;
+		margin-top: -60px;
+		&:after {
+			width: 100px;
+			color: white;
+			top: 30px;
+			position: relative;
+			white-space: pre;
+			font-weight: 600;
+			font-size: 13px;
+			font-size: 4.0625VW;	
+		}
+	}
+	.swiper-button-prev::after {
+		content: '1° andar';
+	}
+	.swiper-button-next::after {
+		content: '2° andar';
+		left: -20px;
+	}
+	.swiper-button-disabled {
+		display: none;
+	}
+}
+
+.legenda {
+	columns: 1;
+	position: absolute;
+	top: 47vh;
+	padding: 0 12%;
+	ol { 
+		counter-reset: item;
+		list-style-type: none;
+		padding: 0;
+		font-size: 13px;
+		font-weight: 700;
+		font-style: italic;
+		letter-spacing: -0.9px;
+	}
+	li { display: block; margin-bottom: 1px; }
+	li:before { 
+		display:inline-block;
+		content: counter(item, decimal-leading-zero) " ";	    counter-increment: item;
+		font-style: normal;
+		color: #53031F;
+		background-color: white;
+		width: 18px;
+		height: 18px;
+		-moz-border-radius: 12px;
+		-webkit-border-radius: 12px;
+		border-radius: 12px;
+		padding: 0 2px;
+		margin-right: 4px;
+	}
+}
+
+.legenda1coluna {
+	columns: 1;
+}
+
+.estrutura-andar {
+	height: 100%;
+	right: 0;
+	img {
+		width: 100%;
+		object-fit: cover;
+		position: relative;
+	}
+	.andar1 {
+		height: 117vw;
+		object-position: -36vw;
+		top: -22.5vh;
+	}
+	.andar2 {
+		height: 162vw;
+		object-position: -54vw;
+		top: -20vw;
+	}
+}	
+
+
+/*GASTRONOMIA*/
+
+.gastronomia-title  {
+	.camarote-title();
+}
+
+.gastro-container {
+	height: 100%;
+	.row {
+		height: 100%;
+	}
+}
+
+.swiper-gastro-1__foto1 {
+	height: 30%;
+	width: 100%;
+	background-image: url('../assets/foto-gastro.jpg');
+	background-position: 0 70%;
+	background-size: 100%;
+}
+
+
+.swiper-gastro2 {
+	height: 56%;
+	overflow: visible !important;
+	.swiper-button-next {
+		top: 45vh;
+		right: 1em;
+		filter: grayscale(100%) brightness(4) contrast(1);
+		height: 25px;
+		width: 25px;
+		&::before {
+			content: 'Destaques Menu 2019';
+			font-size: 15px;
+			font-size: 4.6875VW;
+			font-style: italic;
+			font-weight: 800;
+			white-space: pre;
+			position: relative;
+			left: -11em;
+			vertical-align: -5px;
+		}
+	}
+	.swiper-button-prev {
+		top: 16%;
+		left: 76%;
+		filter: grayscale(100%) brightness(4) contrast(1);
+		height: 20px;
+		width: 20px;
+		background-size: 20px 20px;
+		&::after {
+			content: 'voltar';
+			font-size: 14px;
+			font-size: 4.375VW;
+			font-style: italic;
+			font-weight: 800;
+			white-space: pre;
+			position: relative;
+			left: 1.5em;
+			vertical-align: 10px;
+		}
+	}
+}
+
+.destaques-gastro {
+	position: relative;
+	p {
+		font-weight: 800; 
+		font-size: 20px;
+		font-size: 6.25VW;
+		padding: 10px 20px; 
+	}
+	ul {
+		font-size: 12px;
+		font-size: 3.75VW;
+		font-weight: 600;
+		font-style: italic;
+		padding-left: 10px;
+		padding-top: 0px;
+		li {
+			list-style: none;
+			&::before {
+				content:"·";
+				font-size:20px;
+				vertical-align:middle;
+				line-height:20px;
+				padding-right: 5px;
+			}		
+		}
+	}
+}
+
+.gastronomia-texto {
+	.camarote-texto();
+	line-height: 1.2em;
+	font-size: .8em;
+	padding-right: 30px;
+}
+
+
+.gastrochef {
+	background:url('../assets/gastronomia-chef.png') no-repeat;
+	background-size: 100%;
+	background-position: bottom left;
+	position: absolute;
+	z-index: 3;
+	height: 80vh;
+	width: 130%;
+	right: 0;
+	bottom: 0;
+	filter: drop-shadow(-20px 3px 10px hsla(0, 0%, 0%,.25));
+}
+
+/*OPEN BAR*/
+
+#openbar {
+	background-color: white;
+	color: #fa0560;
+	.camarote-title {
+		height:12%;
+	}
+	.openbar-fotos {
+		height: 47%;
+	}
+	.openbar-menumarca {
+		height: 40%;
+	}
+}
+
+.openbar-menu { 
+	height: 100%;
+	ul {
+		list-style-type: none;
+		font-size: 14px;
+		font-size: 4.375VW;
+		line-height: 1.2em;
+		font-weight: 900;
+		font-style: italic;
+		padding: 20px 10px 20px 20px;
+		margin:0;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+.openbar-fotos img{
+	position: absolute;
+	height: 50vh;
+	width: 100%;
+	object-fit: cover;
+}
+
+.openbar-marcas {
+	height: 100%;
+}
+
+.openbar-logos {
+	background:url('../assets/sprite-logos.png') no-repeat;
+	background-size: 600%;
+	height: 150px;
+	width: 150px;
+	.transform-centering();
+}
+
+.mumm {
+	background-position: 1.5% -1%;
+}
+
+.beefeater {
+	background-position: 26% -1%;
+}
+
+.absolut {
+	background-position: 74% 0;
+}
+
+.chivas {
+	background-position: 97.8% 0;
+}
+
+.therezopolis {
+	background-position: 97.8% 31%;
+}
+
+/*CONTATO*/
+
+
+#contato {
+	position: relative;
+	#openbar();
+	a {
+		color: #fa0560;
+		text-decoration: underline;
+		&:hover, &:visited {
+			color: #fa0560;
+		}
+	}
+}
+
+.contato-wrapper {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+.formcontato { 
+	width: 80%;
+	position: relative;
+	margin: 0 auto;
+	label {
+		display: none;
+	}
+	.form-group {
+		margin-bottom: 1px;
+	}
+	.form-control {
+		border-radius: 0;
+		border: 1px solid #fa0560;
+		padding: 5px;
+		height: 1.8em;
+		font-size: 14px;
+		font-size: 4.375VW;
+		color: #fa0560;
+		font-weight: 500;
+		&::placeholder {
+			color: #fa0560;
+			font-weight: 600;
+			font-style: italic;
+		}
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	textarea.form-control {
+		height: 100px;
+	}
+	button {
+		background-color: transparent;
+		border:none;
+		float: right;
+		padding: 5px 0;
+		a {
+			font-weight: 800;
+			text-decoration: none !important;
+		}
+	}
+}
+
+.formcontatotitle {
+	font-weight: 900;
+	font-style: italic;
+}
+
+.box-contato {
+	padding: 2em 1.8em;
+	line-height: .5em;
+	a  {
+		font-size: 12px;
+		font-size: 3.75vw;
+		font-style: italic;
+	}
+	i {
+		padding-left: 5px;
+	}
+}
+
+.realizacao {
+	height: 16%;
+	.row, .swiper-realizacao-text {
+		height: 100%;
+	}
+	.swiper-realizacao-text {
+		.swiper-slide {
+			background-color: white;
+		}
+		p {
+			font-size: 14px;
+			font-size: 4.375VW;
+			font-weight: 800;
+			font-style: italic;
+			position: relative;
+			text-align: center;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
+}
+
+.swiper-realizacao {
+	height: 100%;
+}
+
+.realizacao-logos {
+	background-image:url('../assets/sprite-logos.png');
+	background-size: 600%;
+	height: 20vh;
+	width: 20vh;
+	.transform-centering();
+	& .mumm {
+	background-position: 1.5% -1%;
+	}
+
+	& .beefeater {
+		background-position: 26% -1%;
+	}
+
+	& .absolut {
+		background-position: 74% 0;
+	}
+
+	& .chivas {
+		background-position: 97.8% 0 !important;
+	}
+
+	& .therezopolis {
+		background-position: 97.8% 31%;
+	}
+}
+	.barizon {
+		background-position: -406% -507%;
+	}
+	.casashopping {
+		background-position: -430% -507%;
+	}
+	.ied {
+		background-position: -478% -507%;
+	}
+	.pedrodeartagao {
+		background-position: -454% -507%;
+	}
+	.minimalistas {
+		background-position: -454% -607%;
+	}
+	.retratil {
+		background-position: -478.5% -607%;
+	}
+	.valente {
+		background-position: -430.5% -607%;
+	}
+	.carioca {
+		background-position: -280px -325px;
+	}
+	.apresenta {
+		background-position: -420px -220px;
+	}
+	.hilton {
+		background-position: -555px -220px;
+	}
+	.liesa {
+		background-position: 0px -285px;
+		background-size: 540%;
+	}
+	.riotur {
+		background-position: -145px -325px;
+	}
+
+
+
+/*COMPRE AGORA*/
+
+.compreagora-fotos {
+	height: 30%;
+	.swiper-slide {
+		background-size: cover;
+		border-top: .5px solid white;
+		border-bottom: .5px solid white;
+	}
+	.foto1 {
+		background-image: url('../assets/slider-home-12.jpg');
+	}
+	.foto2 {
+		background-image: url('../assets/slider-home-13.jpg');
+	}
+}
+
+.datas-compreagora {
+	text-align: center;
+	width: 100%;
+	margin: auto 0;
+	button {
+		width: 98.4%;
+		background-color: #54bd00;
+		border: none;
+		color: white;
+		position: relative;
+		& :after {
+			content:'';
+			position: absolute;
+			z-index: 0;
+			bottom:0;
+			left: 0;
+			width: 100%;
+			height: 70%;
+			background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(60,0,0,0.2) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+		}
+	}
+}
+
+.col-20 {
+	width: 20%;
+	float: left;
+	text-align: center;
+	border: 1px splid transparent;
+}
+
+.col-80 {
+	width: 80%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	border: 1px splid transparent;
+}
+
+.row.club {
+	width: 100%;
+	border-top: 1px solid transparent;
+	button {
+		height: 100%;
+	}
+}
+
+.prog-dia2 {
+	padding: 10px 0;
+	margin: 0;
+	font-size: 20px;
+	font-size: 6.25Vw;
+	font-weight: 900;
+	font-style: italic;
+	line-height: .8em;
+	position: relative;
+	border:.5px solid transparent;
+	&:after {
+		content:'';
+		position: absolute;
+		z-index: -1;
+		bottom:0;
+		left: 0;
+		width: 100%;
+		height: 70%;
+		background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(60,0,0,0.2) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(60,0,0,.2) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */
+	}
+}
+
+.prog-dia-mes {
+	color: #500026;
+	font-weight: 700;
+}
+
+.prog-dia2-detalhe {
+	display: block;
+	font-size: 12px;
+	font-size: 3.75VW;
+	line-height: 1.2em;
+	font-weight: 700;
+}
+
+.eventim {
+	width: 100%;
+	font-size: 13px;
+	font-size: 4.0625VW;
+	font-style: italic;
+	padding: 5% 0;
+	img {
+		width: 25%;
+	}
+	i {
+		padding:10px;
+	}
+	span {
+		font-weight: 700;
+	}
+}
+
+/*COMO FUNCIONA*/
+
+.como-funciona-title {
+	height: 25%;
+}
+
+.como-funciona-title:after {
+	background: url(../assets/desfile-foto-04.jpg);
+	background-size: cover;
+}
+
+.como-funciona-title-text {
+	padding-bottom: 10px;
+	font-style: normal;
+}
+
+#comofunciona {
+	font-size: 12px;
+	font-size: 3.75VW;
+	font-weight: 600;
+	font-style: italic;
+	line-height: 1.2em;
+	letter-spacing: -.04em;
+	h3 {
+		font-size: 14px;
+		font-size: 4.375VW;
+		font-weight: 900;
+		margin-left: -5px;
+	}
+	ul {
+		padding-inline-start: 20px;
+		list-style: none;
+	}
+	li {
+		padding: 5px 0;
+	}
+	li:before {
+		content: "\f00c"; /* FontAwesome Unicode */
+		font-family: FontAwesome;
+		position: absolute;
+		left: 15px;
+	}
+}
+
+.conteudo-texto {
+	font-size: 12px;
+	font-size: 3.75VW;
+	font-weight: 500;
+	font-style: italic;
+	line-height: 1.2em;
+	letter-spacing: -.04em;
+	padding: 15px;
+}
+
+/*MEETING POINT*/
+
+#meetingpoint .camarote-title {
+	width: 100%;
+} 
+
+.logo-casashopping {
+	position: absolute;
+	right: 10px;
+	top:0;
+	width: 100px;
+	height: 100%;
+	background: url('../assets/logo-casa-shopping.png') no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.meeting-point__foto {
+	width: 100%;
+	height: 30%;
+	background-image: url('../assets/foto-banner-casa-shopping.jpg');
+	background-size: cover;
+	background-position: center;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.comochegar  {
+	font-size: 1.1em;
+	float: right;
+	font-weight: 800;
+	i {
+		padding: 10px;
+		font-size: 20px;
+		vertical-align: middle;
+	}
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	-webkit-user-select: none; /* Safari */
+	-khtml-user-select: none; /* Konqueror HTML */
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* Internet Explorer/Edge */
+user-select: none; /* Non-prefixed version, currently
+supported by Chrome and Opera */
+}
+
+/*Flexbox Centering*/
+
+.flexbox-centering {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+}
+
+/*Transform centering*/
+
+.transform-centering {
+	left: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+/*Transform horizontal centering*/
+.transform-h-centering {
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+
+@media only screen and (orientation: landscape) {
+	body {
+		background-image: url('../assets/background.jpg');
+	}
+
+	.body-wrapper {
+		position: relative;
+		max-width: @max-width-wrapper;
+		margin: auto;
+		background-image: @background-geral;
+		background-size: cover;
+		border-left: 1px solid #500026;
+		border-right: 1px solid #500026;
+		box-shadow: -0 40px 120px rgba(0,0,0,0.3);
+		}
+
+	.sgnav-top  {
+		max-width: @max-width-wrapper;
+		border-left: 1px solid #500026;
+		border-right: 1px solid #500026;
+		margin-left: -1px;
+		border-bottom: none; 
+	}
+
+	.sgnav-bottom {
+		max-width: @max-width-wrapper;
+		border-left: 1px solid #500026;
+		border-right: 1px solid #500026;
+		margin-left: -1px; 
+		border-top: none;
+	}
+
+	.swiper-subtitle .title {
+		font-size: 4vh;
+	}
+
+	.swiper-subtitle .subtitle {
+		font-size: 3vh;
+	}
+
+	.swiper-pagination-bullet {
+		width: 1.6vh !important;
+		height: 1.6vh !important;
+		border: 0.5px solid white;
+		opacity: 0.6 !important;
+		margin: 1vh;
+	}
+
+	.swiper-subtitle {
+		padding-bottom: 10vh;
+	}
+
+	#swiper-container-home {
+		&:after {
+			max-width:62vh;
+			bottom: 2vh;
+		}
+	}
+
+	.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+		margin-bottom: 2vh !important;
+	}
+
+	.table-rioexxp {
+		font-size: 3.5vh;
+		& span {
+			font-size: 2.1vh;
+		}
+	}
+
+	.sonhomeu:after {
+		background-size: 60vh;
+	}
+
+	.programacao-title {
+		h2 {
+			font-size: 4.25Vh;
+		}
+		p {
+			font-size: 1.75Vh;
+		}
+	}
+
+	.prog-data {
+		font-size: 4.71875Vh;
+	}
+
+	.prog-nome-artista, .prog-nome-artista2 {
+		font-size: 2.25Vh;
+	}
+
+	.prog-nome-artista-destaque {
+		font-size: 4.25Vh;
+	}
+
+	.artista-convidado {
+		font-size: 4.25Vh;
+	}
+
+	.prog-subtitle {
+		font-size: 2.0625Vh;
+	}
+
+	.prog-dia {
+		font-size: 5.1874vh;
+	}
+
+	.prog-dia-mes {
+		font-size: 2.2962Vh;
+	}
+
+	.legenda-escolas {
+		font-size: 2.25Vh;
+	}
+
+	.camarote-title, .gastronomia-title {
+		p {
+			font-size: 2.2vh;
+		}
+	}
+
+	.camarote-texto {
+		font-size: 2.375Vh;
+	}
+
+	.camarote-title h2, .gastronomia-title h2 {
+		font-size: 4.25Vh;
+		line-height: 2.5vh;
+	}
+
+
+	.localizacao-bg {
+		height: 20vh;
+	}
+
+	.localizacao {
+		background-size: 66vh;
+	}
+
+	.estrutura-andar  {
+		.andar1 {
+			height: 80vh;
+			object-position: -25vh;
+		}
+		.andar2 {
+			height: 102vh;
+			object-position: -34vh;
+			top: -15vh;
+		}
+	}
+
+	.swiper-estrutura {
+		height: 100%;
+		.programacao-title {
+			position: relative;
+			z-index: 1;
+		}
+		.swiper-button-prev, .swiper-button-next {
+			&:after {
+				font-size: 3.0625Vh;	
+			}
+		}
+	}
+
+	.swiper-estrutura .swiper-button-next {
+		top: 68vh;
+	}
+
+	.swiper-estrutura .swiper-button-next::after {
+		content: '2° andar';
+		left: -8vh;
+	}
+
+	.legenda {
+		columns: 1;
+		width: 56vh;
+		top: 48vh;
+		padding:5%;
+		ol { 
+			font-size: 2.2Vh;
+		li:before { 
+			width: 3.3Vh;
+			height: 3.3Vh;
+			-moz-border-radius: 2vh;
+			-webkit-border-radius: 2vh;
+			border-radius: 2vh;
+			}
+		}
+	}
+
+
+
+	.legenda1coluna {
+		top: 45vh;
+	}
+
+	.camarote-texto .legenda-localizacao {
+		ol { 
+			font-size: 2.2Vh;
+		}
+		li:before { 
+			width: 3.3Vh;
+			height: 3.3Vh;
+			-moz-border-radius: 2vh;
+			-webkit-border-radius: 2vh;
+			border-radius: 2vh;
+		}
+	}
+
+
+	.gastrochef {
+		bottom: -6vh;
+	}
+
+	.gastronomia-texto {
+		font-size: 2vh;
+		padding-right: 6vh;
+	}
+
+
+	.swiper-gastro2 {
+		.swiper-button-prev {
+			width: 4vh;
+			height: 4vh;
+			background-size: 3.5vh;
+			&::after {
+				font-size: 3.1875Vh;
+				vertical-align: middle;
+			}
+		}
+		.swiper-button-next {
+			width: 4vh;
+			height: 4vh;
+			background-size: 3.5vh;
+			&::before {
+				font-size: 3.1875Vh;
+				vertical-align: middle;
+			}
+		}
+	}
+
+	.destaques-gastro {
+		position: relative;
+		p {
+
+			font-size: 4.25Vh;
+		}
+		ul {
+			font-size: 2.25Vh;
+		}
+	}
+
+	.openbar-menu { 
+		ul {
+			font-size: 2.575vh;
+		}
+	}
+	.openbar-logos {
+		height: 30vh;
+		width: 30vh;
+	}
+
+	.formcontato .form-control { 
+			font-size: 2.375vh;
+		}
+
+	.box-contato {
+		padding-left: 6vh;
+		a  {
+			font-size: 1.75vh;
+		}
+	}
+	.realizacao {
+		.swiper-realizacao-text {
+			p {
+				font-size: 2.375vh;
+			}
+		}
+	}
+
+	.prog-dia2 {
+		font-size: 4.25Vh;
+	}
+
+	.prog-dia2-detalhe {
+		font-size: 2.25Vh;
+	}
+
+	.eventim {
+		font-size: 2.0624vh;
+	}
+
+	.datas-compreagora {
+		button {
+			font-size: 2.5vh;
+		}
+	}
+
+	#comofunciona {
+		font-size: 2.75vh;
+		h3 {
+			font-size: 2.375vh;
+		}
+		li:before {
+			left: 10px;
+		}
+	}
+
+	.conteudo-texto {
+		font-size: 2.15vh;
+	}
+
+}

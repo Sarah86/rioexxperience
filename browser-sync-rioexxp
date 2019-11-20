@@ -1,0 +1,1 @@
+browser-sync start --server '/home/sarah/Documentos/[PROJETOS]/RIOEXXPERIENCE' --files='*.html, **/*.css, **/*.js, **/*.less'
